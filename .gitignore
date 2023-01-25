@@ -31,3 +31,7 @@
 # Debug files
 *.dSYM/
 *.su
+/luarocks
+/lua
+/lua_modules
+/.luarocks

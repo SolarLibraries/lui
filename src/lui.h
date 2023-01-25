@@ -6,11 +6,12 @@
 #include <string.h>
 #include <memory.h>
 
-#include "ui.h"
+#include <ui.h>
 
 /* make lua version compat */
 #if LUA_VERSION_NUM < 503
 # include "c-api/compat-5.3.h"
+# include "c-apt/compat-5.3.c"
 #endif
 #include "auxiliar.h"
 
